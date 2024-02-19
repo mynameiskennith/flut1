@@ -14,15 +14,16 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.red[600],
       ),
       body: Center(
-        child: Text('HELLO NINJAS',
-            style: TextStyle(
-              fontSize: 20.0,
-              //fontWeight: FontWeight.bold,
-              letterSpacing: 2.0,
-              color: Colors.grey[600],
-              fontFamily: 'Anta',
-            )),
-      ),
+
+          // child: Text('HELLO NINJA BOY',
+          //     style: TextStyle(
+          //       fontSize: 20.0,
+          //       //fontWeight: FontWeight.bold,
+          //       letterSpacing: 2.0,
+          //       color: Colors.grey[600],
+          //       fontFamily: 'Anta',
+          //     )),
+          ),
       backgroundColor: const Color.fromARGB(255, 56, 47, 27),
       // floatingActionButton: const FloatingActionButton(
       //   onPressed: () {},
