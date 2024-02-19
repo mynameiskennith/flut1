@@ -17,7 +17,7 @@ void main() => runApp(MaterialApp(
                 fontFamily: 'Anta',
               )),
         ),
-        backgroundColor: Colors.amber[600],
+        backgroundColor: const Color.fromARGB(255, 56, 47, 27),
         // floatingActionButton: const FloatingActionButton(
         //   onPressed: () {},
         //   child: Text('click'),
