@@ -11,7 +11,7 @@ class Home extends StatelessWidget {
       appBar: AppBar(
         title: Text('my first app'),
         centerTitle: true,
-        //backgroundColor: Colors.red[600],
+        backgroundColor: Colors.red[600],
       ),
       body: Container(
         color: Colors.grey,
@@ -68,6 +68,7 @@ class Home extends StatelessWidget {
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
         child: Text('click'),
+        backgroundColor: Colors.red,
       ),
     );
   }
