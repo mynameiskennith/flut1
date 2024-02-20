@@ -13,27 +13,62 @@ class Home extends StatelessWidget {
         centerTitle: true,
         //backgroundColor: Colors.red[600],
       ),
-      body: Center(
-        child: Image.asset('naruto.jpg'),
-        //(
-        //image: AssetImage('naruto2.jpg'),
-        // image: NetworkImage(
-        //     'https://images.unsplash.com/photo-1512850183-6d7990f42385?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')
-        //),
-        // child: Text('HELLO NINJA BOY',
-        //     style: TextStyle(
-        //       fontSize: 20.0,
-        //       //fontWeight: FontWeight.bold,
-        //       letterSpacing: 2.0,
-        //       color: Colors.grey[600],
-        //       fontFamily: 'Anta',
-        //     )),
+      body: Container(
+        color: Colors.grey,
       ),
-      //backgroundColor: const Color.fromARGB(255, 56, 47, 27),
-      // floatingActionButton: const FloatingActionButton(
-      //   onPressed: () {},
-      //   child: Text('click'),
+      // body: Center(
+      //   child: IconButton(
+      //     icon: Icon(Icons.alternate_email),
+      //     onPressed: () {
+      //       print('You clicked me !!');
+      //     },
+      //     color: Colors.amber,
+      //   ),
+      //   // child: ElevatedButton.icon(
+      //   //   icon: Icon(
+      //   //     Icons.mail,
+      //   //     color: Colors.green,
+      //   //   ),
+      //   //   onPressed: () {
+
+      //   //   },
+      //   //   label: Text(
+      //   //     'Mail Me',
+      //   //     style: TextStyle(color: Colors.black),
+      //   //   ),
+      //   //   style: ElevatedButton.styleFrom(primary: Colors.amber),
+      //   // ),
+      //   //     child: ElevatedButton(
+      //   //   onPressed: () {
+      //   //     print("You Clicked me");
+      //   //   },
+      //   //   child: Text('click me'),
+      //   // )
+      //   // child: Icon(
+      //   //   Icons.airport_shuttle,
+      //   //   color: Colors.lightBlue,
+      //   //   size: 50.0,
+      //   // ),
+      //   //child: Image.asset('naruto.jpg'),
+      //   //(
+      //   //image: AssetImage('naruto2.jpg'),
+      //   // image: NetworkImage(
+      //   //     'https://images.unsplash.com/photo-1512850183-6d7990f42385?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')
+      //   //),
+      //   // child: Text('HELLO NINJA BOY',
+      //   //     style: TextStyle(
+      //   //       fontSize: 20.0,
+      //   //       //fontWeight: FontWeight.bold,
+      //   //       letterSpacing: 2.0,
+      //   //       color: Colors.grey[600],
+      //   //       fontFamily: 'Anta',
+      //   //     )),
       // ),
+      //backgroundColor: const Color.fromARGB(255, 56, 47, 27),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: Text('click'),
+      ),
     );
   }
 }
