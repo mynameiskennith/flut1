@@ -13,9 +13,22 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.red[600],
       ),
-      body: Container(
-        color: Colors.grey,
-      ),
+      body: Row(children: []),
+
+      // body: Padding(
+      //   padding: EdgeInsets.all(30),
+      //   child: Text('Hello'),
+      // ),
+
+      // body: Container(
+      //   margin: EdgeInsets.all(100),
+      //   padding: EdgeInsets.fromLTRB(10, 20, 40, 30),
+      //   // padding: EdgeInsets.symmetric(horizontal: 30, vertical: 10),
+      //   // padding: EdgeInsets.all(20.0),
+      //   color: Colors.grey,
+      //   child: Text('hello'),
+      // ),
+
       // body: Center(
       //   child: IconButton(
       //     icon: Icon(Icons.alternate_email),
