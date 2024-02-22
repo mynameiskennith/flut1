@@ -13,7 +13,93 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.red[600],
       ),
-      body: Row(children: []),
+
+      body: Row(
+        children: [
+          Expanded(
+            child: Image.asset('naruto.jpg'),
+            flex: 15,
+          ),
+          Expanded(
+            flex: 24,
+            child: Container(
+              color: Color.fromARGB(255, 226, 28, 252),
+              padding: EdgeInsets.all(30),
+              child: Text('1'),
+            ),
+          ),
+          Expanded(
+            flex: 15,
+            child: Container(
+              color: Color.fromARGB(255, 209, 127, 33),
+              padding: EdgeInsets.all(30),
+              child: Text('2'),
+            ),
+          ),
+          Expanded(
+            flex: 10,
+            child: Container(
+              color: Color.fromARGB(255, 22, 198, 55),
+              padding: EdgeInsets.all(30),
+              child: Text('3'),
+            ),
+          ),
+        ],
+      ),
+
+      // body: Column(
+      //     mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      //     crossAxisAlignment: CrossAxisAlignment.center,
+      //     children: [
+      //       Row(
+      //         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+      //         children: [
+      //           Container(
+      //             color: Color.fromARGB(255, 226, 28, 252),
+      //             padding: EdgeInsets.all(30),
+      //             child: Text('One'),
+      //           ),
+      //           Container(
+      //             color: Color.fromARGB(255, 245, 17, 230),
+      //             padding: EdgeInsets.all(70),
+      //             child: Text('One'),
+      //           ),
+      //           Container(
+      //             color: Color.fromARGB(255, 205, 37, 214),
+      //             padding: EdgeInsets.all(30),
+      //             child: Text('One'),
+      //           )
+      //         ],
+      //       ),
+      //       Container(
+      //         color: Colors.cyan,
+      //         padding: EdgeInsets.all(30),
+      //         child: Text('One'),
+      //       ),
+      //       Container(
+      //         color: const Color.fromARGB(255, 50, 55, 55),
+      //         padding: EdgeInsets.all(80),
+      //         child: Text('One'),
+      //       ),
+      //       Container(
+      //         color: Color.fromARGB(255, 20, 58, 63),
+      //         padding: EdgeInsets.all(20),
+      //         child: Text('One'),
+      //       )
+      //     ]),
+
+      // body: Row(
+      //     mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      //     crossAxisAlignment: CrossAxisAlignment.start,
+      //     children: <Widget>[
+      //       Text('Hello Ninjas'),
+      //       ElevatedButton(onPressed: () {}, child: Text('Click Me'),),
+      //       Container(
+      //         color: Colors.cyan,
+      //         padding: EdgeInsets.all(30),
+      //         child: Text('Iside the Container'),
+      //       ),
+      //     ]),
 
       // body: Padding(
       //   padding: EdgeInsets.all(30),
