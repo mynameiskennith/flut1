@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "947502828959",
+    "firebase_url": "https://simplelogin-cc7b2-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "simplelogin-cc7b2",
+    "storage_bucket": "simplelogin-cc7b2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947502828959:android:df61af44f2dee481cac1aa",
+        "android_client_info": {
+          "package_name": "com.example.log"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALsG-bSdXKuEKzcw3uVC2lCsIGn-4SzEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:947502828959:android:993344e20863c5a3cac1aa",
+        "android_client_info": {
+          "package_name": "com.example.login3"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyALsG-bSdXKuEKzcw3uVC2lCsIGn-4SzEY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

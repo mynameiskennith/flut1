@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>API_KEY</key>
+	<string>AIzaSyD2oEigJoRV9gaJvuoJQN9t3ubkbV1fvy8</string>
+	<key>GCM_SENDER_ID</key>
+	<string>947502828959</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.example.login3.RunnerTests</string>
+	<key>PROJECT_ID</key>
+	<string>simplelogin-cc7b2</string>
+	<key>STORAGE_BUCKET</key>
+	<string>simplelogin-cc7b2.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:947502828959:ios:47eaf9f0f1dd871fcac1aa</string>
+	<key>DATABASE_URL</key>
+	<string>https://simplelogin-cc7b2-default-rtdb.asia-southeast1.firebasedatabase.app</string>
+</dict>
+</plist>
