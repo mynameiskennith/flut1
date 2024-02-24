@@ -123,18 +123,18 @@ class Home extends StatelessWidget {
       //     },
       //     color: Colors.amber,
       //   ),
-      //   // child: ElevatedButton.icon(
-      //   //   icon: Icon(
-      //   //     Icons.mail,
-      //   //     color: Colors.green,
-      //   //   ),
-      //   //   onPressed: () {
+      // child: ElevatedButton.icon(
+      //   icon: Icon(
+      //     Icons.mail,
+      //     color: Colors.green,
+      //   ),
+      //   onPressed: () {
 
-      //   //   },
-      //   //   label: Text(
-      //   //     'Mail Me',
-      //   //     style: TextStyle(color: Colors.black),
-      //   //   ),
+      //   },
+      //   label: Text(
+      //     'Mail Me',
+      //     style: TextStyle(color: Colors.black),
+      //   ),
       //   //   style: ElevatedButton.styleFrom(primary: Colors.amber),
       //   // ),
       //   //     child: ElevatedButton(
