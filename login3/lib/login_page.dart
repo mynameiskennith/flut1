@@ -65,6 +65,10 @@ class _LoginPageState extends State<LoginPage> {
             ElevatedButton(
               onPressed: () {
                 // Implement your login logic here
+                setState(() {
+                  signIn();
+                });
+
                 print('Login button pressed');
               },
               child: Text('Log In'),
