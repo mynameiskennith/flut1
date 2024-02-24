@@ -19,7 +19,18 @@ class _HomePageState extends State<HomePage> {
           children: [
             Text(
               'Signed In as : ${user.email!}',
+              style: TextStyle(fontSize: 20.0),
             ),
+            SizedBox(
+              height: 30.0,
+            ),
+            MaterialButton(
+              onPressed: () {
+                FirebaseAuth.instance.signOut();
+              },
+              color: Colors.blueAccent,
+              child: Text('Sign Out'),
+            )
           ],
         ),
       ),
