@@ -151,7 +151,7 @@ class _NinjaCardState extends State<NinjaCard> {
           children: <Widget>[
             Center(
               child: CircleAvatar(
-                backgroundImage: AssetImage('thumb.jpg'),
+                backgroundImage: AssetImage('assets/thumb.jpg'),
                 radius: 40.0,
               ),
             ),

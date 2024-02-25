@@ -17,7 +17,7 @@ class Home extends StatelessWidget {
       body: Row(
         children: [
           Expanded(
-            child: Image.asset('naruto.jpg'),
+            child: Image.asset('assets/naruto.jpg'),
             flex: 15,
           ),
           Expanded(
